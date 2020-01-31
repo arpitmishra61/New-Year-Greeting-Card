@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/arpitmishra61/New-Year-Greeting-Card/issues"
   },
-  "homepage": "https://github.io/arpitmishra61/New-Year-Greeting-Card"
+  "homepage": "https://github.io/arpitmishra61/New-Year-Greeting-Card",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
