@@ -1,11 +1,13 @@
 body{
-    background-color: rgb(230, 31, 31);
+    background-image: url('https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     height: 100vh;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    background-size: cover;
+    overflow-y: hidden;
     
    
     
@@ -16,9 +18,8 @@ body{
     
     height: 50vh !important;
     
-    border: 3px solid rgb(196, 194, 194);
-    background-image: url('https://images.pexels.com/photos/1387577/pexels-photo-1387577.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-position-y:-500px;
+    
+  
     
     width: 80%;
 
@@ -29,7 +30,7 @@ body{
     display: flex;
     height: 100%;
 
-    background-color: rgba(0, 0, 0, 0.438);
+   
     width: 100%;
 }
 

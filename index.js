@@ -14,9 +14,9 @@ let currentDate= new Date();
     let countdown={
     days:Math.floor((newYearDate-currentDate)/8.64e7),
    
-    hrs:24-currentDate.getHours(),
-    mins:60-currentDate.getMinutes(),
-    secs:60-currentDate.getSeconds()
+    hrs:24-currentDate.getHours()-1,
+    mins:60-currentDate.getMinutes()-1,
+    secs:60-currentDate.getSeconds()-1
     
 }
 
